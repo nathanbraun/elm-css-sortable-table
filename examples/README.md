@@ -9,13 +9,13 @@
 To see the examples *without* CSS, run the following commands:
 
 ```bash
-git clone https://github.com/billstclair/elm-sortable-table.git
-cd elm-sortable-table
+git clone https://github.com/nathanbraun/elm-css-sortable-table.git
+cd elm-css-sortable-table
 cd examples
 elm-reactor
 ```
 
-Then navigate to `1-presidents.elm` or `2-travel.elm` from [localhost:8000](http://localhost:8000/). When using `elm-reactor`, refreshing a page that ends with `.elm` will recompile the code in that file and show you the new result.
+Then navigate to `Presidents.elm` or `Travel.elm` from [localhost:8000](http://localhost:8000/). When using `elm-reactor`, refreshing a page that ends with `.elm` will recompile the code in that file and show you the new result.
 
 
 ## Build Instructions with CSS
@@ -23,11 +23,11 @@ Then navigate to `1-presidents.elm` or `2-travel.elm` from [localhost:8000](http
 To see the examples *with* CSS, run the following commands:
 
 ```bash
-git clone https://github.com/billstclair/elm-sortable-table.git
-cd elm-sortable-table
+git clone https://github.com/nathanbraun/elm-css-sortable-table.git
+cd elm-css-sortable-table
 cd examples
-elm make 1-presidents.elm --output=site/presidents.js
-elm-reactor
+elm make Presidents.elm --output=site/presidents.js
+elm reactor
 ```
 
 Then open [localhost:8000/site/presidents.html](http://localhost:8000/site/presidents.html) in your browser. That HTML file loads in some CSS and whatever code is in `presidents.js`.
@@ -35,7 +35,7 @@ Then open [localhost:8000/site/presidents.html](http://localhost:8000/site/presi
 If you want to see the second example with CSS, you can compile it like this:
 
 ```bash
-elm make 2-travel.elm --output=site/travel.js
+elm make Travel.elm --output=site/travel.js
 ```
 
 And then open [localhost:8000/site/travel.html](http://localhost:8000/site/travel.html).
