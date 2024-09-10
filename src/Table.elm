@@ -66,11 +66,11 @@ is not that crazy.
 -}
 
 import Char
-import Html exposing (Attribute, Html)
-import Html.Attributes as Attr
-import Html.Events as E
-import Html.Keyed as Keyed
-import Html.Lazy exposing (lazy2, lazy3)
+import Html.Styled as Html exposing (Attribute, Html)
+import Html.Styled.Attributes as Attr
+import Html.Styled.Events as E
+import Html.Styled.Keyed as Keyed
+import Html.Styled.Lazy exposing (lazy2, lazy3)
 import Json.Decode as Json
 
 
